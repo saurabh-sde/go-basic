@@ -2,8 +2,9 @@ package main
 
 import (
 	"fmt"
-	"v1/interfaces/stack/queue"
-	"v1/interfaces/stack/stack"
+
+	"github.com/saurabh-sde/go-basic/structsInterfaces/interfaces/stackQueue/queue"
+	"github.com/saurabh-sde/go-basic/structsInterfaces/interfaces/stackQueue/stack"
 )
 
 type Popper interface {
