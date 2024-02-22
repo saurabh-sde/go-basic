@@ -6,6 +6,10 @@ type Stack struct {
 	Data []int
 }
 
+func NewStack() *Stack {
+	return &Stack{}
+}
+
 func (s *Stack) Push(n int) {
 	s.Data = append(s.Data, n)
 }

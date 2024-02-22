@@ -6,6 +6,10 @@ type Queue struct {
 	Data []int
 }
 
+func NewQueue() *Queue {
+	return &Queue{}
+}
+
 func (s *Queue) Push(n int) {
 	s.Data = append(s.Data, n)
 }
